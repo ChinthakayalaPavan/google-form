@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #a{
+            border-radius: 10px;
+        }
+        #b{
+            border-radius: 10px;
+        }
+        #a1{
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        #b1{
+            font-size: 20px;
+            text-align: left;
+        }
+        #a2{
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            
+        }
+        .a4{
+            text-align: left;
+        }
+        .c{
+            border-radius: 10px;
+        }
+        #d1{
+            outline: none;
+            width: 300px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        #d2{
+            outline: none;
+            width: 500px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        #f{
+            margin-left: 380px;
+            margin-right: 400px;
+            
+        }
+        #f1{
+            
+            margin-left: 380px;
+            margin-right: 400px;
+            
+        }
+    </style>
+    
+<title>Document</title>
+</head>
+<body style="background-color: rgb(215, 201, 219);">
+    <br>
+   <center><div id="a" style="width: 700px;height: 320px; background-color: white;">
+    <div id="a1" style="height: 10px; background-color: rgb(38, 16, 199);"></div>
+    <div style="width: 650px;" id="a2">
+   <p style="font-size: 35px; ">Career Transformation Program (CTP) Applicant Information</p>
+   <p class="a4"> Please Help Us To Know Your Profile Better </p><hr>
+   <p class="a4">The name and photo associated with your Google Account will be recorded when you upload files and submit this form. 
+    Your email address is not part of your response.
+   </p><hr>
+   <p style="color: red;">* Indicates required question</p>
+   </div>
+   </div></center><br>
+   <center>
+    
+
+    <form action="submit.html">
+    <div id="b" style="width: 700px;height: 180px; background-color: white;"><br>
+    <div style="width: 650px;" id="b1">
+    <p>Did You Read the Program Content Document <b style="color: red;">*</b></p>
+    <input  type="radio" name="a"> Yes <br> <br>
+    <input  type="radio" name="a"> No
+    </div></div> <br>
+    <div class="c" style="width: 700px;height: 180px; background-color: white;"><br>
+        <div style="width: 650px;" id="b1">
+        <p>Did You Read the FAQ Document<b style="color: red;">*</b></p>
+        <input  type="radio" name="a"> Yes <br> <br>
+        <input  type="radio" name="a"> No
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Your Name<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" id="d1" type="text"></p>
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Your Phone Number<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" id="d1" pattern="[0-9]{10}" minlength="10" maxlength="10" type="number"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Your EMAIL ID<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" id="d1" type="email"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Date Of Birth<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" id="d1" type="date"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 180px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Gender<b style="color: red;">*</b></p>
+            <input  type="radio" name="a"> Male <br> <br>
+            <input  type="radio" name="a"> Female
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 280px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Which programming language you have Learnt or worked<b style="color: red;">*</b></p>
+            <input  type="checkbox" name="a"> C <br> <br>
+            <input  type="checkbox" name="a"> Java <br> <br>
+            <input  type="checkbox" name="a"> Python <br> <br>
+            <input  type="checkbox" name="a"> Others : <input id="d2" type="text">
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 280px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>Which Database have you learnt / worked<b style="color: red;">*</b></p>
+            <input  type="checkbox" name="a"> Oracle <br> <br>
+            <input  type="checkbox" name="a"> MS SQL <br> <br>
+            <input  type="checkbox" name="a"> MY SQL <br> <br>
+            <input  type="checkbox" name="a"> Others : <input id="d2" type="text">
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>In which year did you complete your 10th Standard<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" title="only 2000 to 2025 are elgible" id="d1" min="2000" max="2025" pattern="[0-9]{4}" minlength="4" maxlength="4" type="number"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>In which year did you complete your 12th Standard / Intermediate<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" title="only 2000 to 2025 are elgible" id="d1" min="2020" max="2025" pattern="[0-9]{4}" minlength="4" maxlength="4" type="number"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>In which year did you complete your graduation<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" title="only 2000 to 2025 are elgible" id="d1" min="2020" max="2025" pattern="[0-9]{4}" minlength="4" maxlength="4" type="number"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 320px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>What was your stream in Graduation ? Ex. B.Com, BA, Btech, BE etc...<b style="color: red;">*</b></p>
+            <input  type="checkbox" name="a"> BCOM<br> <br>
+            <input  type="checkbox" name="a"> BBA/BBM <br> <br>
+            <input  type="checkbox" name="a"> BTECH/BE <br> <br>
+            <input  type="checkbox" name="a"> BSC<br> <br>
+            <input  type="checkbox" name="a"> Others : <input id="d2" type="text">
+        </div></div> <br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>What was the % you have secured<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" title="Percentage should be above 60" id="d1" min="60" max="100" pattern="[0-9]{4}" minlength="2" maxlength="3" type="number"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 150px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>From Which University did you complete your graduation ?<b style="color: red;">*</b> <br> <br>
+            <input required placeholder="Your answer" id="d1" type="text"></p>
+        </div></div><br>
+
+        <div class="c" style="width: 700px;height: 280px; background-color: white;"><br>
+            <div style="width: 650px;" id="b1">
+            <p>How Many Years of Experience Do You Have?<b style="color: red;">*</b></p>
+            <input  type="radio" name="a"> Fresher <br> <br>
+            <input  type="radio" name="a"> 0 to 6 Months <br> <br>
+            <input  type="radio" name="a"> 1 to 2 Years<br> <br>
+            <input  type="radio" name="a"> 2 to 3 Years 
+        </div></div> <br>
+   </center>
+        <div  style="width: 30px;height: 30px; ">
+        <input id="f" style="color: rgb(172, 17, 184); width: 100px; height: 100%;" type="submit" > <br> <br>
+        
+        <input id="f1" style="color: rgb(172, 17, 184); width: 100px; height: 100%; " type="reset"> </div><br>
+        </form>
+        <p align="center" style="font-size: 50px;  font-family: 'Times New Roman', Times, serif; color: rgb(92, 2, 89);">Google Form</p><br>
+</body>
+</html>
